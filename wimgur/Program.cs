@@ -25,7 +25,7 @@ namespace wallhaven
                 syntax.Append("website = either wallhaven or imgur, capitalization doesn't matter"); syntax.Append(Environment.NewLine);
                 syntax.Append("search = any valid search on wallhaven, or any valid album on imgur"); syntax.Append(Environment.NewLine);
                 Console.WriteLine(syntax.ToString());
-                return;
+                args = Console.ReadLine().Split(' ');
             }
 
             using (WebClient wc = new WebClient()) {
