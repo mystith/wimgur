@@ -21,6 +21,7 @@ namespace wallhaven
                 syntax.Append("wimgur, a wallhaven / imgur album downloader"); syntax.Append(Environment.NewLine);
                 syntax.Append("syntax: wallhaven [parameters]"); syntax.Append(Environment.NewLine);
                 syntax.Append("parameters qualify as following: website,search"); syntax.Append(Environment.NewLine);
+                syntax.Append("there can be multiple parameters"); syntax.Append(Environment.NewLine);
                 syntax.Append("website = either wallhaven or imgur, capitalization doesn't matter"); syntax.Append(Environment.NewLine);
                 syntax.Append("search = any valid search on wallhaven, or any valid album on imgur"); syntax.Append(Environment.NewLine);
                 Console.WriteLine(syntax.ToString());
