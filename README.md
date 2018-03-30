@@ -10,3 +10,9 @@ website = either wallhaven or imgur, capitalization doesn't matter (can also be 
 search = any valid search on wallhaven, or any valid album on imgur (or folder name to merge all directory folders into)
 if you use something like "merge,folder" as a parameter, it'll merge all directories in the current directory into one specified folder.
 ```
+# dependencies
+dependencies are included in the release exe, but heres a list:
+```
+htmlagilitypack
+imgur.net
+```
